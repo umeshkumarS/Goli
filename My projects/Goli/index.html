@@ -282,14 +282,16 @@
 <!--Services plus working hours-->
 <section id="services" class="padding-bottom">
   <div class="container">
-    <div class="row">
+    <div class="row" >
+        <div class="col-md-12 text-center">
+        <h2 class="heading ">Our &nbsp; Menu</h2>
+        <hr class="heading_space">
+      </div>
       
-      <div class="menu" style="margin-top:40px" >
-          <div class="col-md-12 text-center" style="margin-top:-40px;">
-              <h2 class="heading">Our &nbsp; Menu</h2>
-          <hr class="heading_space"></div>
-        <hr class="heading_space" style="color:red;">
-        <ul class="menu_widget">
+      <div class="menu" style="margin-top:100px;border-radius:10px;" >
+       
+       
+        <ul class="menu_widget" >
           <li style="background:#E50B0B">Classic Vada Pav &nbsp;-&nbsp;Cheese<span>Rs.40.00</span></li>
           <li style="background:rgba(226, 255, 0, 0.76)">Classic Vada Pav &nbsp;-&nbsp;Without Cheese<span>Rs.25.00</span></li>
           <li style="background:#E50B0B">Masala Vada Pav &nbsp;-&nbsp;Cheese<span>Rs.50.00</span></li>
@@ -312,19 +314,19 @@
 
 
 <!-- Food Gallery -->
-<section id="gallery" class="padding">
-  <div class="container" style="margin-top:-120px">
+<section id="gallery"  >
+  <div class="container">
       <div class="row">
      <div class="col-md-12 text-center">
-        <h2 class="heading " style="background:#E50B0B;color:white;width:400px;text-align:center;padding:5px;border-radius:10px;margin-left:-25px;">Featured &nbsp; Menu &nbsp; items</h2>
+        <h2 class="heading">Featured &nbsp; Menu &nbsp; items</h2>
         <hr class="heading_space" >
         <div class="work-filter">
           <ul class="text-center">
-             <li><a href="javascript:;" data-filter="all" class="active filter">All Food</a></li>
+             <li><a href="javascript:;" data-filter="all" class="active filter">All Menu Items</a></li>
              <li><a href="javascript:;" data-filter=".starters" class="filter">Starters</a></li>
              <li><a href="javascript:;" data-filter=".drinks" class="filter">Drinks & Beverges</a></li>
-             <li><a href="javascript:;" data-filter=".dinner" class="filter"> Dinner</a></li>
-             <li><a href="javascript:;" data-filter=".lunch" class="filter">Breakfast & Lunch</a></li>
+            
+            
           </ul>
         </div>
       </div>
@@ -616,6 +618,17 @@
                     <input type="text" class="form-control" placeholder="Phone No" name="phone" id="phone" required>
                   </div>
                 </div>
+                   <div class="col-md-6">
+                  <div class="form-group">
+                    <select class="form-control" id="deal" name="deal">
+                       <option value="Not Selected"> Select Deal </option>
+                       <option> Deal One ($200) </option>
+                       <option> Deal Two ($500) </option>
+                       <option> Deal Three ($900) </option>
+                       <option> Deal Four ($1300) </option>
+                    </select>
+                  </div>
+                </div>
                
                 <div class="col-md-12">
                   <div class="form-group">
@@ -642,7 +655,7 @@
 <section id="location">
     <div class="container">
   <div class="row">
-  <div class="col-md-6 text-center" style="margin-top:80px;" >
+  <div class="col-md-6 text-center" style="margin-top:80px;width:100%" >
       <h2 class="heading" style="margin-top:10px;margin-bottom:-2px">Our &nbsp; Location &nbsp;- &nbsp;Goli &nbsp; &nbsp;&nbsp;Hassan</h2>
       <hr class="heading_space" style="width:1100px;border-color:">
          <div id="map" style="max-width:100%;"></div>
